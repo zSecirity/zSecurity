@@ -32,7 +32,7 @@ def animated_print(text, color=Fore.WHITE, delay=0.03):
 def show_banner():
     clear()
     
-    banner = pyfiglet.figlet_format("zSecurityPhisher", font="slant")
+    banner = pyfiglet.figlet_format("zSecurity", font="slant")
     console.print("=" * 60, style="bold magenta")
     console.print(banner, style="bold red")
     console.print("=" * 60, style="bold magenta")
